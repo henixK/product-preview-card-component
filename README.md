@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/henixK/product-preview-card-component)
+- Solution URL:(https://github.com/henixK/product-preview-card-component)
 - Live Site URL: (https://kbproductcard-91db05.netlify.app/)
 
 ## My process
