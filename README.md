@@ -14,6 +14,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Overview
 
+
 ### The challenge
 
 Users should be able to:
@@ -23,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./design/screencapture-127-0-0-1-5500-2023-06-18-13_23_12.png)
 
 ### Links
 
-- Solution URL:(https://github.com/henixK/product-preview-card-component)
-- Live Site URL: (https://kbproductcard-91db05.netlify.app/)
+- Solution URL:https://github.com/henixK/product-preview-card-component
+- Live Site URL: https://kbproductcard-91db05.netlify.app/
 
 ## My process
 
