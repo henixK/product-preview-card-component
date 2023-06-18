@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+<link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Product preview card component</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#f2ebe3]">
+  <main class="w-full h-screen md:flex md:justify-center md:items-center px-5 py-2">
+    
+    <div class="md:max-w-[700px] max-h-[900px] md:max-h-[500px] overflow-hidden rounded-xl shadow-lg flex justify-center flex-wrap md:rounded-2xl md:flex-row">
+      
+      <!--img container-->
+      <div class="md:w-1/2 md:h-full">
+        <img class="block md:hidden" src="./images/image-product-mobile.jpg" alt="">
+        <img class="hidden md:block w-full md:h-full" src="./images/image-product-desktop.jpg" alt="">
+      </div>
+
+      <!--description container-->
+      <div class="p-8 py-1 md:py-4 bg-white max-h-[500px] md:w-1/2 md:h-full ">
+        <h3 class="uppercase my-3 font-thin text-sm text-[#6c7289] tracking-[0.15em] ">perfume</h3>
+        <h1 class="text-3xl md:text-4xl">Gabrielle Essence Eau De Parfum</h1>
+      
+        <p class="text-sm mt-4 md:my-8 text-[#6c7289] ">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="flex gap-5 my-4">
+          <h1 class="text-3xl md:text-4xl text-[#3c8067]">$149.99</h1>
+          <span class="line-through py-2">$169.99</span>
+        </div>
+      
+        <button class="w-full h-16 bg-[#3c8067] hover:bg-[#1c3b30] flex items-center justify-center gap-2 p-4 rounded-xl mb-4 md:my-8 brightness-button">
+          <img class="w-4" src="./images/icon-cart.svg" alt="">
+          <h2 class="text-lg text-white font-bold">Add to Cart</h2>
+      </button>
+      
+      
+      </div>
+
+    </div>
+  </main>
+
+
+
+
+
+  <div class="text-center text-lg">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" class="text-blue-500" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#" class="text-blue-500">Kevin Castaneda Bautista</a>.
+  </div>
+</body>
+
+</html>
